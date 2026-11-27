@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estante Literária | Quiz de Compatibilidade</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="full-brown-page">
+
+    <header class="hero small-hero">
+        <div class="hero-content">
+            <h1>Quiz Literário 🎯</h1>
+            <p>Responda às 10 etapas para encontrarmos obras compatíveis com o seu perfil.</p>
+            <a href="corpo.html" class="back-link">← Voltar para o Início</a>
+        </div>
+    </header>
+
+    <main class="container quiz-center-wrapper">
+        <section class="quiz-section standalone-quiz">
+
+            <div class="quiz-progress-container">
+                <div class="quiz-progress-info">
+                    <span id="questionCounter">Pergunta 1 de 10</span>
+                    <span id="progressPercent">10%</span>
+                </div>
+                <div class="quiz-progress-bar">
+                    <div class="quiz-progress-fill" id="progressFill" style="width: 10%;"></div>
+                </div>
+            </div>
+
+            <form id="advancedQuizForm">
+
+                <!-- 1 -->
+                <div class="quiz-question-group" data-question="q1">
+                    <div class="genio-question-header">
+                        <span class="genio-number">1</span>
+                        <h3 class="genio-question-title">Logo nas primeiras páginas, o que mais desperta o seu interesse?</h3>
+                    </div>
+                    <div class="genio-options-grid">
+                        <button type="button" class="genio-option"
+                            data-genre="fantasia" data-ritmo="imersivo" data-complexidade="elaborada" data-tema="mitologia e reinos" data-epoca="classico">
+                            A abertura de um mundo com regras próprias, mapas, tradições e forças ancestrais.
+                        </button>
+                        <button type="button" class="genio-option"
+                            data-genre="ficcao" data-ritmo="contemplativo" data-complexidade="filosofica" data-tema="sociedade e poder" data-epoca="moderno">
+                            Uma premissa que expõe contradições humanas, sistemas de controle ou dilemas éticos.
+                        </button>
+                        <button type="button" class="genio-option"
+                            data-genre="misterio" data-ritmo="acelerado" data-complexidade="investigativa" data-tema="segredo e crime" data-epoca="contemporaneo">
+                            Um incidente perturbador ou pista oculta que já levanta suspeitas logo de cara.
+                        </button>
+                        <button type="button" class="genio-option"
+                            data-genre="desenvolvimento" data-ritmo="objetivo" data-complexidade="estruturada" data-tema="habitos e decisao" data-epoca="atual">
+                            Uma tese clara sobre comportamento humano que já ajuda a enxergar a própria rotina.
+                        </button>
+                    </div>
+                </div>
+
+                <!-- 2 -->
+                <div class="quiz-question-group hidden" data-question="q2">
+                    <div class="genio-question-header">
+                        <span class="genio-number">2</span>
+                        <h3 class="genio-question-title">Qual cadência de leitura costuma te envolver mais?</h3>
+                    </div>
+                    <div class="genio-options-grid">
+                        <button type="button" class="genio-option"
+                            data-genre="fantasia" data-ritmo="imersivo" data-complexidade="elaborada" data-tema="jornada epica" data-epoca="classico">
+                            Mergulhos longos e envolventes, onde cada viagem e aliança ganha peso com o tempo.
+                        </button>
+                        <button type="button" class="genio-option"
+                            data-genre="ficcao" data-ritmo="contemplativo" data-complexidade="filosofica" data-tema="identidade e destino" data-epoca="moderno">
+                            Pausas reflexivas que permitem digerir diálogos densos, símbolos e silêncios.
+                        </button>
+                        <button type="button" class="genio-option"
+                            data-genre="misterio" data-ritmo="acelerado" data-complexidade="investigativa" data-tema="suspense e tensao" data-epoca="contemporaneo">
+                            Capítulos curtos e urgentes, com sensação constante de tensão e descoberta.
+                        </button>
+                        <button type="button" class="genio-option"
+                            data-genre="desenvolvimento" data-ritmo="objetivo" data-complexidade="estruturada" data-tema="foco e metodo" data-epoca="atual">
+                            Leitura progressiva e bem organizada, com ideias diretas e fáceis de aplicar.
+                        </button>
+                    </div>
+                </div>
+
+                <!-- 3 -->
+                <div class="quiz-question-group hidden" data-question="q3">
+                    <div class="genio-question-header">
+                        <span class="genio-number">3</span>
+                        <h3 class="genio-question-title">Como você prefere que a complexidade da história se construa?</h3>
+                    </div>
+                    <div class="genio-options-grid">
+                        <button type="button" class="genio-option"
+                            data-genre="fantasia" data-ritmo="imersivo" data-complexidade="elaborada" data-tema="mitologia e reinos" data-epoca="classico">
+                            Na interligação entre povos, profecias, facções e sistemas de poder antigos.
+                        </button>
+                        <button type="button" class="genio-option"
+                            data-genre="ficcao" data-ritmo="contemplativo" data-complexidade="filosofica" data-tema="identidade e destino" data-epoca="moderno">
+                            Na ambiguidade moral dos personagens e nas perguntas sem resposta simples.
+                        </button>
+                        <button type="button" class="genio-option"
+                            data-genre="misterio" data-ritmo="acelerado" data-complexidade="investigativa" data-tema="segredo e crime" data-epoca="contemporaneo">
+                            Na montagem minuciosa de fatos, álibis, contradições e falsas aparências.
+                        </button>
+                        <button type="button" class="genio-option"
+                            data-genre="desenvolvimento" data-ritmo="objetivo" data-complexidade="estruturada" data-tema="habitos e decisao" data-epoca="atual">
+                            Na conexão entre ciência comportamental, gatilhos mentais e prática diária.
+                        </button>
+                    </div>
+                </div>
+
+                <!-- 4 -->
+                <div class="quiz-question-group hidden" data-question="q4">
+                    <div class="genio-question-header">
+                        <span class="genio-number">4</span>
+                        <h3 class="genio-question-title">Qual atmosfera você quer habitar durante a leitura?</h3>
+                    </div>
+                    <div class="genio-options-grid">
+                        <button type="button" class="genio-option"
+                            data-genre="fantasia" data-ritmo="imersivo" data-complexidade="elaborada" data-tema="jornada epica" data-epoca="classico">
+                            Territórios vastos, cidades fortificadas, ruínas esquecidas e horizontes míticos.
+                        </button>
+                        <button type="button" class="genio-option"
+                            data-genre="ficcao" data-ritmo="contemplativo" data-complexidade="filosofica" data-tema="futuro e distopia" data-epoca="moderno">
+                            Cenários que parecem um espelho inquietante do mundo real ou de futuros possíveis.
+                        </button>
+                        <button type="button" class="genio-option"
+                            data-genre="misterio" data-ritmo="acelerado" data-complexidade="investigativa" data-tema="enigma e suspense" data-epoca="contemporaneo">
+                            Ambientes fechados, noites carregadas, arquivos secretos ou cidades cheias de rumores.
+                        </button>
+                        <button type="button" class="genio-option"
+                            data-genre="desenvolvimento" data-ritmo="objetivo" data-complexidade="estruturada" data-tema="foco e metodo" data-epoca="atual">
+                            Um espaço mental lúcido e focado, voltado à clareza, disciplina e evolução pessoal.
+                        </button>
+                    </div>
+                </div>
+
+                <!-- 5 -->
+                <div class="quiz-question-group hidden" data-question="q5">
+                    <div class="genio-question-header">
+                        <span class="genio-number">5</span>
+                        <h3 class="genio-question-title">Que tipo de figura central desperta mais a sua curiosidade?</h3>
+                    </div>
+                    <div class="genio-options-grid">
+                        <button type="button" class="genio-option"
+                            data-genre="fantasia" data-ritmo="imersivo" data-complexidade="elaborada" data-tema="jornada epica" data-epoca="classico">
+                            Quem amadurece diante de um destino maior que si mesmo.
+                        </button>
+                        <button type="button" class="genio-option"
+                            data-genre="ficcao" data-ritmo="contemplativo" data-complexidade="filosofica" data-tema="identidade e destino" data-epoca="moderno">
+                            Quem questiona a própria consciência ou resiste a um sistema opressor.
+                        </button>
+                        <button type="button" class="genio-option"
+                            data-genre="misterio" data-ritmo="acelerado" data-complexidade="investigativa" data-tema="enigma e suspense" data-epoca="contemporaneo">
+                            Quem enxerga detalhes que outros ignoram e investiga o que foi escondido.
+                        </button>
+                        <button type="button" class="genio-option"
+                            data-genre="desenvolvimento" data-ritmo="objetivo" data-complexidade="estruturada" data-tema="autoconhecimento" data-epoca="atual">
+                            Uma abordagem voltada ao próprio leitor, com ferramentas para romper padrões.
+                        </button>
+                    </div>
+                </div>
+
+                <!-- 6 -->
+                <div class="quiz-question-group hidden" data-question="q6">
+                    <div class="genio-question-header">
+                        <span class="genio-number">6</span>
+                        <h3 class="genio-question-title">Qual tema central você quer ver explorado com mais profundidade?</h3>
+                    </div>
+                    <div class="genio-options-grid">
+                        <button type="button" class="genio-option"
+                            data-genre="fantasia" data-ritmo="imersivo" data-complexidade="elaborada" data-tema="mitologia e reinos" data-epoca="classico">
+                            Lealdade, honra, queda de impérios e o peso de grandes conquistas.
+                        </button>
+                        <button type="button" class="genio-option"
+                            data-genre="ficcao" data-ritmo="contemplativo" data-complexidade="filosofica" data-tema="sociedade e poder" data-epoca="moderno">
+                            A natureza humana, a liberdade individual e os rumos da sociedade.
+                        </button>
+                        <button type="button" class="genio-option"
+                            data-genre="misterio" data-ritmo="acelerado" data-complexidade="investigativa" data-tema="segredo e crime" data-epoca="contemporaneo">
+                            Culpa, manipulação, segredos de família ou mistérios por desvendar.
+                        </button>
+                        <button type="button" class="genio-option"
+                            data-genre="desenvolvimento" data-ritmo="objetivo" data-complexidade="estruturada" data-tema="habitos e produtividade" data-epoca="atual">
+                            Constância, tomada de decisão, foco e construção de bons hábitos.
+                        </button>
+                    </div>
+                </div>
+
+                <!-- 7 -->
+                <div class="quiz-question-group hidden" data-question="q7">
+                    <div class="genio-question-header">
+                        <span class="genio-number">7</span>
+                        <h3 class="genio-question-title">Qual recorte temporal combina mais com o seu momento atual?</h3>
+                    </div>
+                    <div class="genio-options-grid">
+                        <button type="button" class="genio-option"
+                            data-genre="fantasia" data-ritmo="imersivo" data-complexidade="elaborada" data-tema="jornada epica" data-epoca="classico">
+                            Obras clássicas ou de fôlego tradicional com grande alcance narrativo.
+                        </button>
+                        <button type="button" class="genio-option"
+                            data-genre="ficcao" data-ritmo="contemplativo" data-complexidade="filosofica" data-tema="futuro e distopia" data-epoca="moderno">
+                            Narrativas modernas que atravessam gerações e continuam provocativas.
+                        </button>
+                        <button type="button" class="genio-option"
+                            data-genre="misterio" data-ritmo="acelerado" data-complexidade="investigativa" data-tema="enigma e suspense" data-epoca="contemporaneo">
+                            Histórias contemporâneas com ritmo ágil e tensão constante.
+                        </button>
+                        <button type="button" class="genio-option"
+                            data-genre="desenvolvimento" data-ritmo="objetivo" data-complexidade="estruturada" data-tema="habitos e produtividade" data-epoca="atual">
+                            Abordagens atuais e alinhadas às demandas práticas do presente.
+                        </button>
+                    </div>
+                </div>
+
+                <!-- 8 -->
+                <div class="quiz-question-group hidden" data-question="q8">
+                    <div class="genio-question-header">
+                        <span class="genio-number">8</span>
+                        <h3 class="genio-question-title">Como você gosta que as viradas e surpresas aconteçam?</h3>
+                    </div>
+                    <div class="genio-options-grid">
+                        <button type="button" class="genio-option"
+                            data-genre="fantasia" data-ritmo="imersivo" data-complexidade="elaborada" data-tema="mitologia e reinos" data-epoca="classico">
+                            Revelações de origem, alianças inesperadas e mudanças de cenário amplas.
+                        </button>
+                        <button type="button" class="genio-option"
+                            data-genre="ficcao" data-ritmo="contemplativo" data-complexidade="filosofica" data-tema="identidade e destino" data-epoca="moderno">
+                            Viradas internas de consciência que ressignificam o que parecia óbvio.
+                        </button>
+                        <button type="button" class="genio-option"
+                            data-genre="misterio" data-ritmo="acelerado" data-complexidade="investigativa" data-tema="segredo e crime" data-epoca="contemporaneo">
+                            Reviravoltas afiadas que desmontam hipóteses anteriores e mudam a investigação.
+                        </button>
+                        <button type="button" class="genio-option"
+                            data-genre="desenvolvimento" data-ritmo="objetivo" data-complexidade="estruturada" data-tema="autoconhecimento" data-epoca="atual">
+                            Mudanças de perspectiva claras que fazem repensar uma atitude antiga.
+                        </button>
+                    </div>
+                </div>
+
+                <!-- 9 -->
+                <div class="quiz-question-group hidden" data-question="q9">
+                    <div class="genio-question-header">
+                        <span class="genio-number">9</span>
+                        <h3 class="genio-question-title">Qual tipo de conflito sustenta melhor o seu interesse?</h3>
+                    </div>
+                    <div class="genio-options-grid">
+                        <button type="button" class="genio-option"
+                            data-genre="fantasia" data-ritmo="imersivo" data-complexidade="elaborada" data-tema="jornada epica" data-epoca="classico">
+                            Desafios grandiosos e a preservação de valores ou mundos ameaçados.
+                        </button>
+                        <button type="button" class="genio-option"
+                            data-genre="ficcao" data-ritmo="contemplativo" data-complexidade="filosofica" data-tema="sociedade e poder" data-epoca="moderno">
+                            O atrito entre consciência individual, ética e estruturas de poder.
+                        </button>
+                        <button type="button" class="genio-option"
+                            data-genre="misterio" data-ritmo="acelerado" data-complexidade="investigativa" data-tema="enigma e suspense" data-epoca="contemporaneo">
+                            A busca pela verdade enquanto segredos e suspeitas vêm à tona.
+                        </button>
+                        <button type="button" class="genio-option"
+                            data-genre="desenvolvimento" data-ritmo="objetivo" data-complexidade="estruturada" data-tema="foco e metodo" data-epoca="atual">
+                            A superação da distração, da falta de constância e de bloqueios cotidianos.
+                        </button>
+                    </div>
+                </div>
+
+                <!-- 10 -->
+                <div class="quiz-question-group hidden" data-question="q10">
+                    <div class="genio-question-header">
+                        <span class="genio-number">10</span>
+                        <h3 class="genio-question-title">Ao terminar a leitura, o que você quer levar consigo?</h3>
+                    </div>
+                    <div class="genio-options-grid">
+                        <button type="button" class="genio-option"
+                            data-genre="fantasia" data-ritmo="imersivo" data-complexidade="elaborada" data-tema="jornada epica" data-epoca="classico">
+                            A sensação de ter vivido uma travessia marcante em um universo rico.
+                        </button>
+                        <button type="button" class="genio-option"
+                            data-genre="ficcao" data-ritmo="contemplativo" data-complexidade="filosofica" data-tema="identidade e destino" data-epoca="moderno">
+                            Reflexão profunda e um olhar mais crítico sobre a condição humana.
+                        </button>
+                        <button type="button" class="genio-option"
+                            data-genre="misterio" data-ritmo="acelerado" data-complexidade="investigativa" data-tema="enigma e suspense" data-epoca="contemporaneo">
+                            A satisfação de ver as pistas se conectarem até a conclusão.
+                        </button>
+                        <button type="button" class="genio-option"
+                            data-genre="desenvolvimento" data-ritmo="objetivo" data-complexidade="estruturada" data-tema="habitos e produtividade" data-epoca="atual">
+                            Clareza mental e ideias práticas para aplicar na rotina.
+                        </button>
+                    </div>
+                </div>
+
+                <div class="quiz-nav-buttons">
+                    <button type="button" id="prevBtn" class="secondary-btn hidden">← Voltar Pergunta</button>
+                </div>
+            </form>
+
+            <div id="quizResult" class="quiz-result hidden"></div>
+        </section>
+    </main>
+
+    <footer class="compact-footer">
+        <p>&copy; 2026 Estante Literária.</p>
+    </footer>
+
+    <script src="config.js"></script>
+    <script src="books.js"></script>
+    <script src="reviews.js"></script>
+    <script src="pp.js"></script>
+</body>
+</html>
